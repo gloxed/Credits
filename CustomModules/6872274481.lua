@@ -334,7 +334,7 @@ local function getcustomassetfunc(path)
 		task.spawn(function()
 			local textlabel = Instance.new("TextLabel")
 			textlabel.Size = UDim2.new(1, 0, 0, 36)
-			textlabel.Text = "Downloading "..path
+			textlabel.Text = "Vape Private Downloading "..path
 			textlabel.BackgroundTransparency = 1
 			textlabel.TextStrokeTransparency = 0
 			textlabel.TextSize = 30
