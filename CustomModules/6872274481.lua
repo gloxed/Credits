@@ -6977,7 +6977,7 @@ runcode(function()
 		tween:Play()
 	end
 
-	local alternatelist = {"Normal", "AntiCheat A", "AntiCheat B"}
+	local alternatelist = {"Private", "Normal", "AntiCheat A", "AntiCheat B"}
 	speed = GuiLibrary["ObjectsThatCanBeSaved"]["BlatantWindow"]["Api"].CreateOptionsButton({
 		["Name"] = "Speed",
 		["Function"] = function(callback)
@@ -7092,7 +7092,7 @@ runcode(function()
 	})
 	speedmode = speed.CreateDropdown({
 		["Name"] = "Mode",
-		["List"] = {"CFrame", "Normal"},
+		["List"] = {"Private", "CFrame", "Normal"},
 		["Function"] = function(val)
 			if bodyvelo then
 				bodyvelo:Remove()
@@ -7205,7 +7205,7 @@ runcode(function()
 	local groundtime = tick()
 	local onground = false
 	local lastonground = false
-	local alternatelist = {"Normal", "AntiCheat A", "AntiCheat B"}
+	local alternatelist = {"Private", "Normal", "AntiCheat A", "AntiCheat B"}
 	fly = GuiLibrary["ObjectsThatCanBeSaved"]["BlatantWindow"]["Api"].CreateOptionsButton({
 		["Name"] = "Fly",
 		["Function"] = function(callback)
@@ -7347,7 +7347,7 @@ runcode(function()
 	})
 	flymode = fly.CreateDropdown({
 		["Name"] = "Mode",
-		["List"] = {"CFrame", "Normal"},
+		["List"] = {"Private", "CFrame", "Normal"},
 		["Function"] = function() end
 	})
 	flyspeed = fly.CreateSlider({
