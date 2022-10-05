@@ -242,7 +242,7 @@ GUI.CreateButton({
 GUI.CreateButton({
 	["Name"] = "Other", 
 	["Function"] = function(callback) Other.SetVisible(callback) end, 
-	["Icon"] = "vape/assets/Other.png", 
+	["Icon"] = "vape/assets/OtherIcon.png", 
 	["IconSize"] = 16
 })
 GUI.CreateDivider("MISC")
